@@ -301,6 +301,15 @@ class TrainConfig(BaseConfig):
                               original_resolution=None,
                               crop_d2c=True,
                               **kwargs)
+        
+        #elif self.data_name == 'custom':
+        #    return CustomDataset(path=path or self.data_path,
+        #                      image_size=self.img_size,
+        #                      original_resolution=None,
+        #                      crop_d2c=True,
+        #                      **kwargs)
+
+
         else:
             raise NotImplementedError()
 
