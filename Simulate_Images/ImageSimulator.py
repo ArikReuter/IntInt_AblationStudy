@@ -66,8 +66,8 @@ class SquaresSimulator:
             plt.imshow(images[i].squeeze().numpy(), cmap='gray')
             plt.show()
 
-test = SquaresSimulator(28, 10)
-images, quadrants = test.simulate()
-print(quadrants)
-test.visualize_samples(images)
+#test = SquaresSimulator(28, 10)
+#images, quadrants = test.simulate()
+#print(quadrants)
+#test.visualize_samples(images)
 
